@@ -1,0 +1,127 @@
+<!Doctype html>
+	<html lang="en-ca">
+	<head>
+		<meta charset='utf-8'>
+		<meta name="description" content="This is a HTML document containing HTML tags" >
+		<meta name="keywords" content="HTML, HTML5, Advanced HTML, New Tags, Special Tags">
+		<meta name="robots" content="noindex, no follow">
+		<meta name="author" content="Jared James">
+		<title>Assignment 3</title>
+	</head>
+	<body>
+		<h1>Assignment 3</h1>
+		<div id='wrapper' class='wrapper'>
+			<section id='html-forms' class='main-section'>
+				<form action='somepage.php' method='get'>
+					<div id='fn-container' class='form-elm'>
+						<label for='firstname'>First Name</label>
+						<input type="text" name="firstname" id='firstname' placeholder="First name goes here" required>
+					</div>
+					<div id='In-container' class=form-elm>
+						<label for=lastname>Last Name</label>
+						<input type="text" name="lastname" id='lastname' placeholder="Last name goes here" required>
+					</div>
+					<div id='email-container' class='form-elm'>
+						<label for='email'>Email</label>
+						<input type="email" name="email" id='email' placeholder="algonquinlive.com" readonly>
+					</div>
+					<div id='pass-container' class="form-elm">
+						<label for='pass'>Password</label>
+						<input type="password" name="pass" id='pass' placeholder="Place password here" required>
+					</div>
+					<div id="sum-container" class="form-elm">
+						<label for='Introduction'>Introduction</label>
+						<textarea name="introduction" id="introduction" placeholder="Enter Introduction here">
+							Enter intro here
+						</textarea>
+					</div>
+					<div id='db-container' class="form-elm">
+						<label for='dte'>Date of Birth</label>
+						<input type="date" name="dte" id='dte' required>
+					</div>
+					<div id='ph-container' class='form-elm'>
+						<label for='num'>Enter phone number</label>
+						<input type="number" name="num" id='num' required>
+					</div>
+					<div id='radio-container' class='form-elm'>
+						<p>What is your gender?</p>
+						<label for='male'>
+							<input type="radio" name="like-form" id="male" value="male">
+							Male
+						</label>
+						<label>
+							<input type="radio" name="like-form" id="female" value="female">
+							Female
+						</label>
+						<label>
+							<input type="radio" name="like-form" id="other" value="other" checked>
+							Other
+						</label>
+					</div>
+					<div id="ad-container" class="form-elm">
+						<label for="Address">Address</label>
+						<input type="text" name="address" id="address" placeholder="Address goes here">
+					</div>
+					<div id="ct-container" class="form-elm">
+						<label for="city">City</label>
+						<input type="text" name="city" id="city" placeholder="City name goes here">
+					</div>
+					<div id='og-container' class="form-elm">
+						<label for="province">Province</label>
+						<select id="province" name="province">
+							<option value="ontario">Ontario</option>
+							<option value="quebec">Quebec</option>
+							<option value="new_brunswick">New Brunswick</option>
+							<option value="newfoundlandandlabrador">Newfoundland and Labrador</option>
+							<option value="princeedwardisland">Prince Edward Island</option>
+							<option value="nova_scotia">Nova Scotia</option>
+							<option value="manitoba">Manitoba</option>
+							<option value="alberta">Alberta</option>
+							<option value="saskatchewan">Saskatchewan</option>
+							<option value="british_columbia">British Columbia</option>
+							<option value="yukon">Yukon</option>
+							<option value="northwest_territories">Northwest Territories</option>
+							<option value="nunavut">Nunavut</option>
+						</select>
+					</div>
+					<div id="co-container" class="form-elm">
+						<label for="country">Country</label>
+						<select id="country" name="Country">
+							<option value="canada">Canada</option>
+							<option value="united_states">United States</option>
+							<option value="mexico">Mexico</option>
+							<option value="great_britian">Great Britian</option>
+							<option value="france">France</option>
+							<option value="germany">Germany</option>
+							<option value="russia">Russia</option>
+						</select>
+					</div>
+					<div id="pc-container" class="form-elm">
+						<label for="postal_Code">Postal Code</label>
+						<input type="text" name="postal_code" id="postal_code" placeholder="Postal Code goes here">
+					</div>
+					<div id="Hobbies-container" class="form-elm">
+						<h2>Hobbies and Interests</h2>
+						<label for="reading">Reading</label>
+						<input type="checkbox" name="hobbies" id="reading" value="reading"><br>
+						<label for="traveling">Traveling</label>
+						<input type="checkbox" name="hobbies" id="traveling" value="traveling"><br>
+						<label for="music">Music</label>
+						<input type="checkbox" name="hobbies" id="music" value="music"><br>
+						<label for="video_gaming">Video Gaming</label>
+						<input type="checkbox" name="hobbies" id="video_gaming" value="video_gaming"><br>
+					</div>
+					<div id="ur-container" class="form-elm">
+						<label for="ur">Enter a URL:</label>
+						<input type="url" name="ur" id="ur" placeholder="Enter URL here"><br>
+					</div>
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</form>
+				
+			</section>
+
+		</div>
+
+	</body>
+	</html>
