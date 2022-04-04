@@ -1,0 +1,32 @@
+.center-tag{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.rotate{
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	animation: spin 5s infinite;
+}
+@keyframes spin {
+	50% {transform: rotate(360deg);}
+}
+.rotate-me{
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	animation: rotate 0.5s linear 5;
+}
+@keyframes rotate {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
